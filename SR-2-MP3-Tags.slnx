@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="SR-2-MP3-Tags/SR-2-MP3-Tags.vcxproj" />
+</Solution>
