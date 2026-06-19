@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="SR-2-MP3-Tags/SR-2-MP3-Tags.vcxproj" />
+  <Project Path="SR-2-MP3-Tags/SR-2-MP3-Tags.vcxproj" Id="3b250658-ab14-40ae-aaad-0ffa9a3b34d8" />
 </Solution>
