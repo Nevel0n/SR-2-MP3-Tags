@@ -21,6 +21,7 @@ struct ID3v1Tag {
 };
 #pragma pack(pop)
 
+// Сімічов Ілля
 namespace Ilya {
     bool readTag(const string& filename, ID3v1Tag& tagData) {
         ifstream file(filename, ios::in | ios::binary);
@@ -58,6 +59,7 @@ namespace Ilya {
     }
 }
 
+// Дмитро Бондаренко
 namespace Dmytro {
     bool isValidYear(const string& year) {
         if (year.length() != 4)
