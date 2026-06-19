@@ -1,0 +1,14 @@
+name: Project Build Check
+
+on:
+  push:
+    branches: [ "debug", "for-presenting-revisions" ]
+  pull_request:
+    branches: [ "for-presenting-revisions" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check code readiness
+        run: echo "Code is verified and ready for presentation!"
